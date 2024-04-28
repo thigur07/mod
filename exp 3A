@@ -1,0 +1,9 @@
+void setup () {
+pinMode(8,output);
+}
+void loop () {
+digital write (8,HIGH);
+delay (1000);
+digital write (8,LOW);
+delay(1000);
+}
