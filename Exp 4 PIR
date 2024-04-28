@@ -25,16 +25,3 @@ Serial.println(readValue);
 
 
 
-PIR-2
-intpirsensor=2;
-intreadValue;
-voidsetup(){
-//putyoursetupcodehere,torunonce:
-pinlode(pirsensor,INPUT);
-Serial.begin(9600);
-}
-voidloop(){
-//putyourmaincodehere,torunrepeatedly:
-readvaluedigitalRead(pirsensor);
-Serial.println(readValue);
-}
